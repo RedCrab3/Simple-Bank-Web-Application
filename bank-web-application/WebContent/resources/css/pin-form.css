@@ -1,0 +1,48 @@
+form {
+	margin-top: 10px;
+}
+
+label {
+	font-size: 16px;
+	width: 100px;
+	display: block;
+	text-align: center;
+	margin: 8px auto 8px auto;
+}
+
+input {
+	width: 100%;
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 17px;
+}
+
+.save {
+	font-weight: bold;
+	width: 130px;
+	background: #60ee7b;
+}
+
+table {
+	margin-left: 240px;
+	border-style: none;
+	width: 40%;
+}
+
+tr:nth-child(even) {
+	background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+	background: #FFFFFF
+}
+
+tr {
+	border-style: none;
+	text-align: left;
+}
+
+td {
+	background: none repeat scroll 0 0 #54e9cc;
+}

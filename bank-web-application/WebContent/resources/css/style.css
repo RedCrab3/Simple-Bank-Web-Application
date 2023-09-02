@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Sassy Frass', cursive;
+	height: 100vh;
+	width: 100%;
+}
+
+body {
+	background-color: cyan;
+}
+
+h1 {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: rgb(199, 233, 7);
+}
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	width: 70%;
+	border: solid 2px #2a7ba5;
+}
+
+th {
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #1f6889;
+	padding-top: 10px;
+	color: rgb(199, 233, 7);
+	border: solid 1px #2a7ba5;
+}
+
+td {
+	border: solid 1px #2a7ba5;
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background: #FFFFFF
+}
+
+tr:nth-child(odd) {
+	background: #BBBBBB
+}
+
+input {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 17px;
+}
+
+#wrapper {
+	width: 100%;
+	margin-top: 0px;
+}
+
+#header {
+	width: 70%;
+	background-color: #1f6889;
+	margin-top: 0px;
+	padding: 15px 0px 15px 15px;
+}
+
+#header h2 {
+	width: 100%;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+#container {
+	width: 100%;
+	margin: auto
+}
+
+#container h3 {
+	color: #000;
+}
+
+#container #content {
+	margin-top: 20px;
+}
+
+.add-button {
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 120px;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	background: #cccccc;
+}
+
+.add-button:hover {
+	background: #f0f0f0;
+}
+
+.add-button:active {
+	background: #525252;
+}
+
+.update-button {
+	height: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #666;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #afb2e3;
+	margin: 5px;
+}
+
+.update-button:hover {
+	background: #eeeff9;
+}
+
+.update-button:active {
+	background: #4b57c0;
+}
+
+.delete-button {
+	height: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #666;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #d85151;
+	margin: 5px;
+}
+
+.delete-button:hover {
+	background: #edadad;
+}
+
+.delete-button:active {
+	background: #ce0000;
+}
+
+.sort-button {
+	background: none repeat scroll 0 0 #1f6889;
+	border: none;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	margin: 0px;
+}
+
+.sort-button:hover {
+	background: none repeat scroll 0 0 #018ea7;
+}
+
+.sort-button:active {
+	background-color: #00405e;
+	box-shadow: 0 5px #666;
+	transform: translateY(2px);
+}
